@@ -2,13 +2,13 @@
 class Pigit < Formula
   desc "Agentic development environment built on Git"
   homepage "https://pigit.dev/"
-  version "0.1.0-eap.3"
+  version "0.1.0-eap.4"
   license :cannot_represent
 
   on_linux do
     on_intel do
-      url "https://pigit.dev/download/v0.1.0-eap.3/pigit-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "5850e30c89dc2b1984d22e06a103d73e9dea64a8ad941a2ce6d5c24d4a4fd419"
+      url "https://pigit.dev/download/v0.1.0-eap.4/pigit-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "f67d5bb2a0a6cbb05c9ef6c1ba74d25ea90b09a024d7834bf4afe056152ec6f6"
     end
   end
 
@@ -25,7 +25,7 @@ class Pigit < Formula
 
   def caveats
     <<~EOS
-      PiGit 0.1.0-eap.3 is an early access build. It stops opening on 2026-12-28;
+      PiGit 0.1.0-eap.4 is an early access build. It stops opening on 2026-12-31;
       `brew upgrade pigit` installs the next one.
     EOS
   end
