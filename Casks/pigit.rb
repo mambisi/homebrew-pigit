@@ -1,7 +1,7 @@
 # Written by tools/homebrew.py in PiGit's repository for each release.
 cask "pigit" do
-  version "0.1.0-eap.4"
-  sha256 "e6e5c33a794d6523b575e1455877956dda93b804ef8a69aa2735b9dd0a3b1292"
+  version "0.1.0-eap.6"
+  sha256 "bd49841715d093d058850d71dce9b07803435f0c87cfd8813871834aa08adb48"
 
   url "https://pigit.dev/download/v#{version}/PiGit-#{version}-macos-arm64.dmg"
   name "PiGit"
@@ -15,7 +15,7 @@ cask "pigit" do
   binary "#{appdir}/PiGit.app/Contents/MacOS/pigit"
 
   caveats <<~EOS
-    PiGit 0.1.0-eap.4 is an early access build. It stops opening on 2026-12-31;
+    PiGit 0.1.0-eap.6 is an early access build. It stops opening on 2027-01-08;
     `brew upgrade --cask pigit` installs the next one.
   EOS
 end
